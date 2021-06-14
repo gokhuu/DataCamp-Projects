@@ -14,11 +14,17 @@ My name is Brandon Khuu and I am an aspiring data scientist.  I have chosen to e
 ## Projects
 
 #### Classify Song Genres from Audio Data
+* Data Visualization
+* Machine Learning
 
 #### Exploring 67 Years of LEGO
+* Data Exploration
 
 #### Predicting Credit Card Approvals
+* Machine Learning
 
 #### The Android App Market on Google Play
+* Data Exploration
 
 #### The GitHub History of the Scala Language
+* Data Visualization
