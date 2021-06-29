@@ -1,6 +1,6 @@
 ## 1. Credit card applications
 <p>Commercial banks receive <em>a lot</em> of applications for credit cards. Many of them get rejected for many reasons, like high loan balances, low income levels, or too many inquiries on an individual's credit report, for example. Manually analyzing these applications is mundane, error-prone, and time-consuming (and time is money!). Luckily, this task can be automated with the power of machine learning and pretty much every commercial bank does so nowadays. In this notebook, we will build an automatic credit card approval predictor using machine learning techniques, just like the real banks do.</p>
-<p><img src="https://assets.datacamp.com/production/project_558/img/credit_card.jpg" alt="Credit card being held in hand"></p>
+<p></p>
 <p>We'll use the <a href="http://archive.ics.uci.edu/ml/datasets/credit+approval">Credit Card Approval dataset</a> from the UCI Machine Learning Repository. The structure of this notebook is as follows:</p>
 <ul>
 <li>First, we will start off by loading and viewing the dataset.</li>
@@ -595,19 +595,6 @@ max_iter = [100,150,200]
 # Create a dictionary where tol and max_iter are keys and the lists of their values are corresponding values
 param_grid = dict(tol, max_iter)
 ```
-
-
-    ---------------------------------------------------------------------------
-
-    TypeError                                 Traceback (most recent call last)
-
-    <ipython-input-151-b4f1faa35278> in <module>
-          7 
-          8 # Create a dictionary where tol and max_iter are keys and the lists of their values are corresponding values
-    ----> 9 param_grid = dict(tol, max_iter)
-    
-
-    TypeError: dict expected at most 1 arguments, got 2
 
 
 ## 12. Finding the best performing model

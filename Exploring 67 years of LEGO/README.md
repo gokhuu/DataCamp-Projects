@@ -1,11 +1,9 @@
 ## 1. Introduction
 <p>Everyone loves Lego (unless you ever stepped on one). Did you know by the way that "Lego" was derived from the Danish phrase leg godt, which means "play well"? Unless you speak Danish, probably not. </p>
 <p>In this project, we will analyze a fascinating dataset on every single lego block that has ever been built!</p>
-<p><img src="https://s3.amazonaws.com/assets.datacamp.com/production/project_10/datasets/lego-bricks.jpeg" alt="lego"></p>
 
 ## 2. Reading Data
 <p>A comprehensive database of lego blocks is provided by <a href="https://rebrickable.com/downloads/">Rebrickable</a>. The data is available as csv files and the schema is shown below.</p>
-<p><img src="https://s3.amazonaws.com/assets.datacamp.com/production/project_10/datasets/downloads_schema.png" alt="schema"></p>
 <p>Let us start by reading in the colors data to get a sense of the diversity of lego sets!</p>
 
 
